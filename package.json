@@ -1,0 +1,27 @@
+{
+  "name": "orz-dev-server",
+  "version": "1.0.0",
+  "description": "mock api server,api proxy server",
+  "main": "index.js",
+  "bin": {
+    "orz-dev-server": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy,api,mock"
+  ],
+  "author": "ThomasKwun1992",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^6.2.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "http-proxy-middleware": "^1.0.6",
+    "request": "^2.88.2"
+  }
+}
